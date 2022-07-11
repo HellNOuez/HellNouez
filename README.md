@@ -1,4 +1,19 @@
-### Hi there 👋🏽
+# **Boilerplate**
+## Describtion 
+This project is a take home challenge to create a readme explanation of this assignment.
 
-I'm Heladio from Fresno, and I just started my journey into website development and code. Every step is a challenge and staying committed is a challenge itself. 
+### Expections 
+To provide clairification for assignment and how to read.
 
+#### Content
+The boilerplate will contant Javascript, CSS, HTML and Bootstrap. Links and Urls will be used as part of this project. 
+
+## Licensing 
+MIT license
+
+## Contributions
+#### https://www.bootstrapcdn.com/
+
+## Contact
+#### http://www.github.com/hellnouez
+#### hellnouez@protonmail.com
