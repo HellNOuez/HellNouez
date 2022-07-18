@@ -4,3 +4,22 @@
     box-sizing: border-box;
 
 }
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   /* .cls-1 {
+        fill: orangered !important;
+    }*/
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /*  .cls-1 {
+        fill: red !important;
+    }*/
+}
+
+@media only screen and (min-width: 1024px) {
+    /*.cls-1 {
+        fill: rgb(106, 56, 38) !important;
+    }*/
+}
+
