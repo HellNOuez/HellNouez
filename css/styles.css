@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
 
 }
 
@@ -22,4 +23,7 @@
         fill: rgb(106, 56, 38) !important;
     }*/
 }
-
+.page-header{
+    padding: 2px;
+    text-align: center;
+}
