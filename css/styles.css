@@ -1,29 +1,10 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    font-family: 'Libre Baskerville', serif;
-
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-   /* .cls-1 {
-        fill: orangered !important;
-    }*/
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /*  .cls-1 {
-        fill: red !important;
-    }*/
-}
-
-@media only screen and (min-width: 1024px) {
-    /*.cls-1 {
-        fill: rgb(106, 56, 38) !important;
-    }*/
-}
-.page-header{
-    padding: 2px;
-    text-align: center;
+    font-family: 'Libre Baskerville', serif;}
+    .bg-dark{background-color:royalblue;}
+.page-header{ text-align: center;}
+.jumbotron{
+    text-transform:none;
+    text-align:center;
 }
