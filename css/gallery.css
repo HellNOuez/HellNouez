@@ -4,13 +4,39 @@
     font-family: 'Libre Baskerville', serif;
 }
     .bg-dark{
-        background-color:royalblue;
+        background-image: url(/images/mainimg.jpg);
+        background-position: center;;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
     }
 .page-header{ 
     position: relative;
     text-align: center;
+    color: rgb(168, 25, 25);
+    text-shadow: 5px rgb(254, 4, 4);
 }
 .jumbotron{
-    text-transform:none;
-    text-align:center;
+    color: rgb(139, 31, 175);
+    font-family: 'Pacifico';
+    font-size: 10vh;
+    text-align: center;
+    background-color:transparent !important;
+    
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    height: 100vh;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+.p-4{
+    color:beige
 }
