@@ -8,6 +8,7 @@
         background-color:royalblue;
 }
 .page-header{ 
+        position: relative;
         text-align: center;
 }
 .jumbotron{
