@@ -10,7 +10,39 @@
     position: relative;
      text-align: center;
     }
-.jumbotron{
-    text-transform:none;
-    text-align:center;
-}
+    #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+    #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+    #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+    #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+
+    @media (max-width: 600px) {
+        .row {
+          display:contents}
+        }
+
+        .container {
+            padding: 80px 120px;
+          }
+          .person {
+            border: 8px solid transparent;
+            margin-bottom: 25px;
+            width: 90%;
+            height: 100%;
+            opacity: 0.9;
+          }
+          .person:hover {
+            border-color: #f1f1f1;
+          }
+        .text-center{
+            text-align: center;
+        }
+        .row{
+            text-align: center;
+            font-family:  'Libre Baskerville', serif;
+            font-size: 4vh;
+            overflow: hidden;
+        }
+        .image1{
+            align-items: center;
+        }
