@@ -5,24 +5,43 @@
 }
     .bg-dark{
         background-image: url(/images/mainimg.jpg);
-        background-position: center;;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        
     }
-.page-header{ 
-    position: relative;
-    text-align: center;
-    color: rgb(168, 25, 25);
-    text-shadow: 5px rgb(254, 4, 4);
-}
+    .page-header{
+        position: relative;
+         text-align: center;
+    }
+    .neonText{
+          animation: flicker 1.5s infinite alternate;
+          color: rgb(255, 255, 255);
+    }
+          /* Flickering animation */
+    @keyframes flicker{
+          0%, 18%, 22%, 25%, 53%, 57%, 100%{
+        
+          text-shadow:
+              0 0 4px rgb(255, 255, 255),
+              0 0 11px rgb(27, 6, 249),
+              0 0 19px rgb(25, 0, 255),
+              0 0 40px rgb(255, 0, 0),
+              0 0 80px rgb(255, 0, 0),
+              0 0 90px rgb(255, 0, 0),
+              0 0 100px rgb(255, 0, 0),
+              0 0 150px rgb(2, 1, 1);
+        }
+        20%, 24%, 55% {        
+          text-shadow: none;
+    }    
+    }
+    .page-header h1{
+          font-size: 9vh;
+    }
 .jumbotron{
-    color: rgb(139, 31, 175);
-    font-family: 'Pacifico';
     font-size: 10vh;
     text-align: center;
-    background-color:transparent !important;
-    
+    background-color: transparent !important;
 }
 
 .carousel-inner img {
@@ -40,3 +59,26 @@
 .p-4{
     color:beige
 }
+.list{ 
+    list-style-type: none;
+}
+.bg-dark1{
+        background-image: url(/images/service.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #79befa;
+        opacity: 0.9;
+        
+}
+.col-4 h1{
+        font-size: 2vh;
+        color: #040505;
+        
+}
+.col-4 ul li{
+        list-style-type: none;
+        display: inline-block;
+        font-size: x-small;
+        color: #72a1ff;}
+

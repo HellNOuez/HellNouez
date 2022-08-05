@@ -3,11 +3,15 @@
     margin: 0;
     font-family: 'Libre Baskerville', serif;
 }
+main{height: 100vh;
+  overflow: scroll;
+
+}
     .bg-dark{
         background-image: url(/images/yellow&green.png);
         background-position: center;
-        background-repeat:no-repeat;
-        background-size:cover;
+        background-repeat:repeat;
+        background-size: 40vh;
     }
 .page-header{
     position: relative;
@@ -38,15 +42,43 @@
 .page-header h1{
       font-size: 9vh;
 }
-    #section1 {padding-top:50px;height:500px;color: #fff; background-color: white;
+  #section1 {
+    background-image: url(/images/aerialpinetrees.jpg);
+    background-position: center;
+    background-size: cover;
+      padding-top: 50px;
+      height: 500px;
+      color: #fff; 
+      background-color: white;
       color: #72a1ff;
-    opacity: 0.9;}
-    #section2 {padding-top:50px;height:500px;color: #fff; background-color:grey;
+      opacity: 0.9;
+      text-align: center;
+      font-size: 4vh;
+  }
+    #section2 {
+      background-image: url(/images/honda\ center.jpg);
+      padding-top:50px;
+      height:500px;
+      color: #fff; 
+      background-color:grey;
       color: #79befa;
-    opacity: 0.9;}
-    #section3 {padding-top:50px;height:500px;color: #fff; background-color: white;
+      opacity: 0.9;
+      text-align: center;
+      font-size: 4vh;
+    }
+    #section3 {
+      background-image: url(/images/head1.png);
+      background-position: center;
+      background-repeat: repeat;
+      padding-top: 50px;
+      height:500px;
+      color: #fff; 
+      background-color: white;
       color: #72a1ff;
-    opacity: 0.9;}
+      opacity: 0.9;
+      text-align: center;
+      font-size: 4vh;
+    }
 
 
     @media (max-width: 600px) {
@@ -71,10 +103,12 @@
             text-align: center;
         }
         .row{
+          overflow: hidden;
+        }
+        .row strong{
             text-align: center;
             font-family:  'Libre Baskerville', serif;
-            font-size: 4vh;
-            overflow: hidden;
+            font-size: 50px;
         }
         .image1{
             align-items: center;

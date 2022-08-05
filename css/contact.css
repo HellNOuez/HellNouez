@@ -3,14 +3,80 @@
     margin: 0;
     font-family: 'Libre Baskerville', serif;
 }
+main{height: 100vh;
+    overflow: scroll;
+  
+  }
     .bg-dark{
-        background-color:royalblue;
+        background-image: url(/images/black&pink.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:contain;
     }
-.page-header{ 
-    position: relative;
-    text-align: center;
-}
+    .page-header{
+        position: relative;
+         text-align: center;
+    }
+    .neonText{
+          animation: flicker 1.5s infinite alternate;
+          color: rgb(255, 255, 255);
+    }
+          /* Flickering animation */
+    @keyframes flicker{
+          0%, 18%, 22%, 25%, 53%, 57%, 100%{
+        
+          text-shadow:
+              0 0 4px rgb(255, 255, 255),
+              0 0 11px rgb(27, 6, 249),
+              0 0 19px rgb(25, 0, 255),
+              0 0 40px rgb(255, 0, 0),
+              0 0 80px rgb(255, 0, 0),
+              0 0 90px rgb(255, 0, 0),
+              0 0 100px rgb(255, 0, 0),
+              0 0 150px rgb(2, 1, 1);
+        }
+        20%, 24%, 55% {        
+          text-shadow: none;
+    }    
+    }
+    .page-header h1{
+          font-size: 9vh;
+    }
 .jumbotron{
     text-transform:none;
     text-align:center;
 }
+
+.bg-grey{
+    background-color: black;
+    opacity: 0.9;
+    color: #72a1ff;
+}
+
+
+
+
+.list{ 
+    list-style-type: none;
+}
+.bg-dark1{
+        background-image: url(/images/service.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #79befa;
+        opacity: 0.9;
+        
+}
+.col-4 h1{
+        font-size: 2vh;
+        color: #040505;
+        
+}
+.col-4 ul li{
+        list-style-type: none;
+        display: inline-block;
+        font-size: x-small;
+        color: #72a1ff;
+}
+
