@@ -1,24 +1,56 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Libre Baskerville', serif, 'Pacifico';
+    font-family: 'Libre Baskerville', serif, 'Pacifico','Vibur';
 
 }
- .bg-dark{
-        background-color:royalblue;
+.herosection{
+        background:white;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        opacity: 0.9;
+}
+.bg-dark{
+        background: url(/images/devious.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
 }
 .page-header{ 
         position: relative;
-        text-align: center;
+        text-align: center;       
 }
-.jumbotron{
-        background-image: url(/images/service.jpg);
-        background-position:center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-transform:none;
-        text-align:center;
+.neonText{
+        animation: flicker 1.5s infinite alternate;
+        color: rgb(255, 255, 255);
 }
+        /* Flickering animation */
+@keyframes flicker{
+        0%, 18%, 22%, 25%, 53%, 57%, 100%{
+      
+        text-shadow:
+            0 0 4px rgb(255, 255, 255),
+            0 0 11px rgb(27, 6, 249),
+            0 0 19px rgb(25, 0, 255),
+            0 0 40px rgb(255, 0, 0),
+            0 0 80px rgb(255, 0, 0),
+            0 0 90px rgb(255, 0, 0),
+            0 0 100px rgb(255, 0, 0),
+            0 0 150px rgb(2, 1, 1);
+      }
+      20%, 24%, 55% {        
+        text-shadow: none;
+}    
+}
+
+
+.page-header h1{
+        font-size: 9vh;
+}
+
+
 .carousel-inner img {
         width: 100%; /* Set width to 100% */
         margin: auto;
@@ -33,6 +65,23 @@
 .list{ 
     list-style-type: none;
 }
-.h1{
-     font-family: 'Pacifico';   
+.bg-dark1{
+        background-image: url(/images/service.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #79befa;
+        opacity: 0.9;
+        
+}
+.col-4 h1{
+        font-size: 2vh;
+        color: #040505;
+        
+}
+.col-4 ul li{
+        list-style-type: none;
+        display: inline-block;
+        font-size: x-small;
+        color: #72a1ff;
 }
